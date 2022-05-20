@@ -11,6 +11,8 @@ function Home() {
       <div className='welcome'>
         <h1>Welcome to SpaceX Dashboard</h1>
         <h4>browse the website to discover all the features :)</h4>
+        <p><a href='/rockets'>See all SpaceX rockets</a></p>
+        <p><a href='/pads'>See landpads and launchpads</a></p>
       </div>
       <div className='container-md'>
         <div className="card mb-5">

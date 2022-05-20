@@ -1,0 +1,90 @@
+.bodyContainer {
+  padding: 2em;
+  background-color: #f2f0ef;
+}
+
+.active_status_true {
+  width: 15px;
+  margin-left: 85%;
+  display: inline-block;
+  height: 15px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: green;
+}
+
+.active_status_false {
+  width: 15px;
+  display: inline-block;
+  margin-left: 85%;
+  height: 15px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: red;
+}
+
+.map-informations-container-left{
+  max-width: 1200px;
+}
+
+.map-info-container-right{
+  min-width: 60%;
+}
+
+.lauchpads-body{
+  width: 15px;
+  margin-left: 1em;
+  display: inline-block;
+  height: 15px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: green;
+}
+
+.landpads-body{
+  width: 15px;
+  margin-left: 1em;
+  display: inline-block;
+  height: 15px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: red;
+}
+
+.welcome{
+  text-align: center;
+  margin: 5em;
+}
+
+.map-informations-container{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 12em;
+}
+
+.map-global-container{
+  margin-bottom: 3em;
+  margin-top: 3em;
+  margin-left: auto;
+  max-width: 1500px;
+}
+
+.dataContainer{
+  margin-left: 20%;
+}
+
+.map-container{
+  max-width: 1200px;
+  border: solid 2px #f2f0ef;
+}
+
+.section {
+  max-width: 800px;
+  padding: 3em;
+  margin-left: auto;
+  margin-right: auto;
+}

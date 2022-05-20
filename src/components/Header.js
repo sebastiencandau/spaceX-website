@@ -19,8 +19,6 @@ const Header = () => {
                         <div class="navbar-nav">
                             <a class="nav-link active" aria-current="page" href="/rockets">Rockets</a>
                             <a class="nav-link" href="/pads">Launchpads/Landpads</a>
-                            <a class="nav-link disabled"
-                            ></a>
                         </div>
                     </div>
                 </div>

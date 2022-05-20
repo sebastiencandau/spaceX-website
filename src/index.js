@@ -1,6 +1,5 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
-import Header from "./components/Header";
 import Home from "./views/Home"
 import Pads from "./views/Pads";
 import Rockets from "./views/Rockets";

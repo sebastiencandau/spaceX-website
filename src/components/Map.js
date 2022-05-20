@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import axios from 'axios';
 import '../App.css'
 import {
   ComposableMap,
@@ -12,16 +11,9 @@ import {
 const geoUrl =
   "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
 
-const markers = [
-
-  { markerOffset: -15, name: "La Paz", coordinates: [-68.1193, -80.544444] },
-];
-
 let lauchpadsSelected = false;
 let landpadsSelected = false;
 let filterSelected = false;
-
-let rocket = '';
 
 const Map = (props) => {
 
@@ -70,7 +62,7 @@ const Map = (props) => {
     console.log(e.target.value);
     let rocket;
     rockets.forEach((rocketF) => {
-      if (rocketF.id == e.target.value) {
+      if (rocketF.id === e.target.value) {
         rocket = rocketF;
       }
     })
@@ -81,7 +73,7 @@ const Map = (props) => {
     console.log(launchpadsList);
     var launchpads = []
     rocketsOfAllLaunches.forEach(rocketL => {
-      if (rocketL.rocket == rocket.id) {
+      if (rocketL.rocket === rocket.id) {
         launchpads.push(rocketL.launchpad);
       }
     })
@@ -92,7 +84,7 @@ const Map = (props) => {
     var launchpads = []
     launchpadsMaker.forEach(launchpadM => {
       launchpadsIds.forEach(launchpadId => {
-        if(launchpadM.id == launchpadId){
+        if(launchpadM.id === launchpadId){
           launchpads.push(launchpadM);
         }
       })

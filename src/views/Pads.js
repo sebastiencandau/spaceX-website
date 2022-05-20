@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import Box from '../components/Box'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Outlet, Link } from "react-router-dom";
 import '../App.css'
 import axios from 'axios';
 import Header from '../components/Header';

@@ -8,7 +8,7 @@ const Box = (props) => {
 
     return (
         <div className="card mb-5">
-            <img className="card-img-top" src={props.img} alt="Card image cap" />
+            <img className="card-img-top" src={props.img} alt="imga"/>
             <div className="card-body">
                 <h5 className="card-title">{props.name}</h5>
                 <p className="card-text">{props.desc}</p>
